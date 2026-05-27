@@ -1,0 +1,6 @@
+{
+  "name": "청주대학교 포털",
+  "description": "청주대학교의 공식 웹사이트 디자인과 주요 학과 및 서비스를 체험할 수 있는 다기능 인터랙티브 포털 애플리케이션입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

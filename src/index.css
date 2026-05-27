@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans KR", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Custom scrollbars for high-quality components */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* Subtle overlay elements */
+.brightness-65 {
+  filter: brightness(0.65);
+}
